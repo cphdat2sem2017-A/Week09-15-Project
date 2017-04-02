@@ -2,7 +2,7 @@
 Dette repo vil indeholde materialer der kommer i løbet af projekt perioden.
 
 ## Review planer
-Mødetider for Review fredag den 7.april er i PDF dokumentet; **Timetable for SCRUM meeting 7 april**
+Mødetider for Review fredag den 7.april er i PDF dokumentet; **Timetable for SCRUM meeting 7 april**  
 Da der ikke er så meget tid til hver gruppe er det vigtigt at i er der til tiden.
 
 ## Undervisnings gange
