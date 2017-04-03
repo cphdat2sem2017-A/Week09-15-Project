@@ -3,7 +3,7 @@ Dette repo vil indeholde materialer der kommer i løbet af projekt perioden.
 
 ## Review planer
 Der er teknisk review torsdag 6. april med Tobias (Tobias/Alpha) samt sprint review/planning møde fredag 7. april med PO (Palle).
-Mødetider for reviews fremgår af separate time schedule pdf dokumenter.   
+Mødetider for reviews fremgår af separate time table pdf dokumenter.   
 Da der ikke er så meget tid til hver gruppe er det vigtigt, at I er der til tiden.
 
 ## Undervisnings gange
