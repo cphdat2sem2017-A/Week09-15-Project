@@ -19,4 +19,4 @@ The tool can be installed into Netbeans by:
 
 To run the tool, one right click on the project, and two new menu entries are now available:
 
-<img src="img/jacocoverage.jpg" width="150">
+<img src="jacocoverage.jpg" width="150">
