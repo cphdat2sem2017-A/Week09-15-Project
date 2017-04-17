@@ -111,7 +111,7 @@ public class TestMyTestableUserDAO1 extends TestCase {
 
 Often the best approach, in my opinion, is to fix the root problem -- the bad encapsulation. Once the logic inside getConnection() is moved out of the class under test, it is trivial to pass in a mock implementation in the unit test code instead of the real thing. Listing 3 illustrates this change.
 
-###Listing 3  A better structure enabling us to test the class-under-test as it is
+### Listing 3  A better structure enabling us to test the class-under-test as it is
 
 ```java
 public class MyTestableUserDAO2 implements UserDAO {
@@ -178,7 +178,7 @@ As always, there's more than one way of doing things. If refactoring the code to
 
 A great tool for this alternative method of testing, that I refer to as sandboxing, is dbUnit (http://dbunit.sourceforge.net). The dbUnit framework allows the developer to create a data set, which is automatically created into the real database before running the test code and can clean up its mess afterwards if necessary.
 
-###Listing 4. The "sandbox" approach
+### Listing 4. The "sandbox" approach
 
 ```java
 public class MyNonTestableUserDAO implements UserDAO {
