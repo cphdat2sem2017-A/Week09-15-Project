@@ -1,6 +1,6 @@
-#Unit Testing Database Code
+# Unit Testing Database Code
 
-###by Lasse Koskela
+### by Lasse Koskela
 (Edited by Kasper)
 
 Have you ever tried to write unit tests for a class that does some data munging on a database? Many have tried and surrendered after a while because of a number of reasons. Some have complained about the test running for too long or about the test needing a set of fixed test data, which easily gets out of synch. Most problems related to testing database related code can be summarized under lack of encapsulation.
@@ -11,7 +11,7 @@ We'll use a fictious Data Access Object pattern (DAO) implementation called User
 
 In general, the key in writing testable database code is to separate logic from access. For example, a DAO class should not encapsulate both the code for querying data over JDBC and the code for obtaining the JDBC connection. Listing 1 shows an example of this kind of flaw.
 
-###Listing 1. Badly encapsulated database code
+### Listing 1. Badly encapsulated database code
 
 ```java
 public class MyNonTestableUserDAO implements UserDAO {
@@ -39,7 +39,7 @@ public class MyNonTestableUserDAO implements UserDAO {
     }
 }
 ```
-##The mock approach
+## The mock approach
 (You can skip this section, it is not the recommended solution)
 
 The problem in testing the DAO class in Listing 1 is that unless we can replace the JDBC connection implementation, running the test successfully would require a real database with the right data. Now, how do we manage to do that?
@@ -171,7 +171,7 @@ Note that even though this example hands an instance of java.sql.Connection to t
 
 For details about writing tests using the mock objects approach and the different frameworks at your disposal, please refer to the resources section.
 
-##The sandbox approach
+## The sandbox approach
 (This is most likely the best approach, but requires new tools)
 
 As always, there's more than one way of doing things. If refactoring the code to accommodate the mock objects approach illustrated above is too big a task and if it's acceptable to have the unit test run for a bit longer, there's always the option to use the real database and simply setup a "sandbox" for the test code to play with.
@@ -254,7 +254,7 @@ public class TestMyNonTestableUserDao extends DatabaseTestCase {
 
 Note that the test data is located in an XML file named MyNonTestableUserDAO-dataset.xml in the local filesystem. Listing 5 shows a possible example of its contents.
 
-###Listing 5. A sample dataset file for the dbUnit test in Listing 4
+### Listing 5. A sample dataset file for the dbUnit test in Listing 4
 
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
@@ -267,7 +267,7 @@ Note that the test data is located in an XML file named MyNonTestableUserDAO-dat
 
 For details about writing tests using dbUnit, please refer to resources section.
 
-##Resources
+## Resources
 
 <http://www.junit.org> 
 The definitive source for JUnit extensions
