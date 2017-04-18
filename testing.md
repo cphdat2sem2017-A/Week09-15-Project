@@ -22,7 +22,7 @@ There are a few sections which can be skipped:
 3. Demo - [coding bats](http://codingbat.com/prob/p192082) are really unit tests
 4. Exercise: Transform [codingbat](http://codingbat.com/prob/p136351) into JUnit
 5. Demo - making tests for an existing code base (sorting from week 5)
-6. Exercise: Make a test for quicksort
+6. Exercise: Make a test for heapsort
 7. Aspects of test ([slides](TestSlides.pdf))
 	- Testing concept: Black-box and White-box testing
 	- Testing concept: Test coverage
