@@ -34,13 +34,18 @@ Mostly it is not recommended to test the actual database layer.
 However, that is a shame as many get the database layer wrong. Once the structure is in place, it is fairly straight forward to do.
 
 ### Main leaning objectives are:
-* database integration testing 
+* Database integration testing 
 * Designing for testability
+* Dependency injection 
+* Test database & production database
+* Population of database with test data
 
 
 Reading:
 
 - This [note by Lasse Koskela](databaseTest.md) explains the principle of how to seperate the connection object from the actual database facade.
+
+Article about Dependency Injection pattern: https://martinfowler.com/articles/injection.html
 
 	
 	
