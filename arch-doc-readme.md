@@ -23,7 +23,7 @@ For Tuesday we will revisit Javadoc (to produce documentation of methods, classe
 
 - Lethbridge and Laganiere chapter 9 slides
 
-- Note on Javadoc
+- [Note on Javadoc](Documentation/arch-Javadoc.md)
 
 - Note on Javadoc in Netbeans
 
