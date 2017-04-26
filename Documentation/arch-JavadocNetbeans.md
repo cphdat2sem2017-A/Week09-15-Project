@@ -8,9 +8,7 @@ Netbeans support javadoc without having to do any installation.
 - Select the project for which you want to run javadoc
 - Select "Generate Javadoc" from the "Run" menu
 
-![Generate Javadoc](img/runjavadoc.jpg)
-
-<img src="img/runjavadoc.jpg" width="150">
+![Generate Javadoc](../img/runjavadoc.jpg)
 
 The files are placed in the folder "dist/javadoc".
 
