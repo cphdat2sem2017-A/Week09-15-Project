@@ -1,9 +1,9 @@
-#How to use javadoc from Netbeans
+# How to use javadoc from Netbeans
 Javadoc has been a part of the standard java toolbox since the [beginning of java](http://www.literateprogramming.com/javadoc95.pdf)
 
 
 ## The simple version using Netbeans
-Netbeans support javadoc without having to do any install.
+Netbeans support javadoc without having to do any installation.
 
 - Select the project for which you want to run javadoc
 - Select "Generate Javadoc" from the "Run" menu
