@@ -10,6 +10,8 @@ Netbeans support javadoc without having to do any installation.
 
 ![Generate Javadoc](img/runjavadoc.jpg)
 
+<img src="img/runjavadoc.jpg" width="150">
+
 The files are placed in the folder "dist/javadoc".
 
 Notice, most of you will have the dist folder listed in your .gitignore file. This is the right thing - one should not have generated files under version control. 
