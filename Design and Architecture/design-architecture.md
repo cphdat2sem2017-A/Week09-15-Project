@@ -34,13 +34,13 @@ Code reviews and static test tools can reveal smelly code or otherwise room for 
 #### Good design
 Good sóftware design has the following qualities:
 - maintainable
-- resuable
+- reusable
 - testable
 - robust 
 
 A Java program should follow the OO principles: abstraction, encapsultation, and modularity.
 
-[SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) is a good guideline to improve maintainablity and make the software easier to extend over time.
+[SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) are good guidelines to improve maintainablity and make the software easier to extend over time.
 
 [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) can also be applied to the code in order to improve the code design. A design pattern is a general reusable solution to a commonly occurring problem within a given context. 
 There will be shown some concrete examples of design patterns  in the section sections below: System Design and Object Design.
