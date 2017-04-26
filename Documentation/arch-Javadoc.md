@@ -16,8 +16,7 @@ All of the places makes sense, and we will look at them all.
 
 The tool Javadoc processes the contents of the special comments to produce html. 
 
-## Advanced (not mandatory)
-It is possible for third party developers to make their own processing tools. We will use one that allow github like markdown syntax to stay consistent with our use of markdown and github in general.
+It is possible for third party developers to make their own processing tools. We will use one that allow github like markdown syntax to stay consistent with our use of markdown and github in general (this is an advanced topic and not mandatory to use).
 
 There is a separate note on how to use Javadoc inside of Netbeans, how to allow diagrams (class diagrams, sequence diagrams, activity diagrams and others) to be written inside javadoc comments, and how to make it all work with github.
 
