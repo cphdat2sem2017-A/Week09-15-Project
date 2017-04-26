@@ -1,6 +1,6 @@
 ## Agile Development 
 ### Principles
-Agile software development is based on the agile manifesto [http://agilemanifesto.org/] and a number of underlying principles agile principle, hereunder
+Agile software development is based on the [agile manifesto](http://agilemanifesto.org/) and a number of underlying principles agile principle, hereunder
 - Simplicity--the art of maximizing the amount of work not done--is essential
 - The best architectures, requirements, and designs emerge from self-organizing teams
 
