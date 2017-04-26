@@ -1,5 +1,17 @@
-## Design "method"
-- agile principle: no big design upfront
+## Agile Development 
+### Principles
+Agile software development is based on the agile manifesto [http://agilemanifesto.org/] and a number of underlying principles agile principle, hereunder
+- Simplicity--the art of maximizing the amount of work not done--is essential
+- The best architectures, requirements, and designs emerge from self-organizing teams
+
+So agile teams do not follow detailed enterprise design guidelines to make "a big design up front" in the beginning of a project.The simplicity principle means, that the team will do what is needed and asked for, but no more. This will maximize the value created for the investment made to date. Developers will take small simple steps to their goal and mitigate failures as they happen.  
+
+### Why?
+There is no reason to spend a lot of time on building a detailed design as you might not really know what you are doing early on in a project. Non-agile developers will often tell you to reduce risk by modeling everything in detail, but if you step back and think about it for a minute, this actually increases your risk. Does it really make sense to do a lot of detailed modeling when you don't really know what you're doing? Think about modeling a full database in the very first Scrum sprint. Probably not something that you really have enough knowledge to do well.
+
+Most often you do not know whether a design solution is going to work, until you have proved it with code. Therefore the best design evolve over time, instead of being defined up front.
+
+### How?
  - why?
  - when to spend time on design?
  - how
@@ -18,6 +30,7 @@ We typically have:
 - how?
 
 ## Object Design
+Architecture is more abstract than design and has focus on decomposing a system into smaller modules (subsystems or layers) whereas object design is more about how a specify module/subsystem/layer is implemented.
 - why and how ?
 - MVC
 - Front Controller
