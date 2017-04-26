@@ -44,7 +44,7 @@ I often leave the old value line with a # sign in front to comment it out and he
 
 Now when you run javadoc, it stores the javadoc into the docs folder instead of the .gitignored dist/javadoc folder.
 
-## Advanced: How to use pegdown instead of normal javadoc
+## Advanced (not mandatory): How to use pegdown instead of normal javadoc
 In 2004 Javadoc introduced the possibility for third party developers to make their own tools to process the information in the javadoc comments. 
 
 Several of those third party javadoc extensions allow javadoc to be written in markdown. We will use one of these named [Pegdown](https://github.com/Abnaxos/pegdown-doclet) as it works well with the markdown as used in github, and with a textual syntax for most UML diagrams it allow us to embed diagrams directly in javadoc.
@@ -62,7 +62,7 @@ Notice the useage of ${basedir} <br>
 
 ![pegdown](../img/PegdownDoclet.jpg)
 
-## Advanced: Using the UML aspects of pegdown
+## Advanced (not mandatory): Using the UML aspects of pegdown
 Besides being able to use the normal markdown for headings, lists, tables and so forth, pegdown allow usage of ["plantuml"](http://plantuml.com). Plant uml provides a text based way to write UML diagrams, which means you can put diagrams in your java comments.
 
 The prototypical way is illustrated by this comment taken from the package-info of my sample app:
