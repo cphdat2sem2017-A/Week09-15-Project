@@ -39,7 +39,7 @@ Github pages has three ways of showing html pages. One of them is to tell github
 #### Javadocs on github - change where Javadoc stores the generated files
 Rather than copying the files from dist/javadoc to the docs folder you can change where javadoc puts its files in the first place.
 
-- A tricky thing - if you find a better way, please say so in an issue! <br> In the nbbuild folder there is a file named "project.properties" - you need to locate the one named dist.javadoc.dir, and change it from <br>dist.javadoc.dir=${dist.dir}/javadoc<br>to <br>dist.javadoc.dir=docs/javadoc<br>
+- A tricky thing - if you find a better way, please say so in an issue! <br> In the nbproject folder there is a file named "project.properties" - you need to locate the one named dist.javadoc.dir, and change it from <br>dist.javadoc.dir=${dist.dir}/javadoc<br>to <br>dist.javadoc.dir=docs/javadoc<br>
 I often leave the old value line with a # sign in front to comment it out and help me locate it again if need be
 
 Now when you run javadoc, it stores the javadoc into the docs folder instead of the .gitignored dist/javadoc folder.
