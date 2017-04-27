@@ -14,12 +14,12 @@ There is no reason to spend a lot of time on building a detailed design as you m
 Most often you do not know whether a design solution is going to work, until you have proved it with code. Therefore the best design evolves over time, instead of being defined up front.
 
 ### How?
-How does good design then come up?
+How does good design then come up? There are a number of ways and techniques. Some of them are described below.
 
 #### Sprint Zero 
-In Scrum there is often a Sprint Zero which is used to create the basic skeleton and infrastructure for the project (e.g setting up github and servers) so that future sprints can add incremental business value in an efficient way. You may need to do some research experiments (often called spikes). Minimal design up front is done in Sprint Zero so that emergent design is possible in future sprints. This includes putting together a flexible enough framework so that refactoring is easy.
+In Scrum there is often a Sprint Zero which is used to create the basic skeleton of the code (called software architecture) and the infrastructure for the project (e.g setting up github and servers) so that the next sprints can add business value in an efficient way. You may need to do some experimenting in sprint Zero to get wiser (they are often called spikes in agile). Minimal design up front is done in Sprint Zero so that emergent design is possible in future sprints. This includes putting together a flexible enough arhitecture so that refactoring is easy.
 
-For minimal design up front, the team picks up a very few critical stories and develops them to completion. Since these are the first few stories, delivering them includes putting the skeleton/framework in place, but even Sprint Zero delivers value even though the velocity of Sprint Zero may be very low compared to that of other sprints.
+For minimal design up front, the team picks a few critical stories and develops them to completion. Since these are the first few stories, delivering them includes putting the skeleton in place, but even Sprint Zero delivers value even though the velocity of Sprint Zero may be very low compared to that of other sprints.
 
 #### Test-driven development
 If the team is test-driven, developers will start coding the unit tests first. Creating a unit test helps a developer to  consider what needs to be done. Requirements are clarified by writing the test. You will also get immediate feedback while you work which is really good as it is often not otherwise clear when a developer has finished all the necessary functionality. 
