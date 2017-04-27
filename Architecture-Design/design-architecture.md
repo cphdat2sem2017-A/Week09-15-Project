@@ -51,9 +51,12 @@ Good software design has the following qualities:
 - testable
 - robust 
 
-A Java program should follow the OO principles: abstraction, encapsultation, and modularity.
+A Java program should follow the OO principles: 
+- abstraction. This basically means writing classes that only contain relevant data and methods. For instance a Customer class with name and address, but without irrelevant information such as puls rate or shoe size.
+- encapsulation. This basically means restricting direct access to an object's attributes by using the private modifier. The internal details of a class must be hidden from outside. The class has methods that provide user interfaces by which the services provided by the class may be used. 
+- modularity. This is the process of decomposing a problem (program) into a set of modules so as to reduce the overall complexity of the problem
 
-[SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) are good guidelines to improve maintainablity and make the software easier to extend over time.
+[SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) are five principles for better maintainability and make  the software easier to extend over time. The SOLID guidelines can be applied while working on software to remove code smells. So it is perfectly fine to ship some simple code in one sprint and refactor it in the next spring with the help of the SOLID principles.. Backed up by automated unit tests will efficiently make sure you do not break the functionality while improving the internal code design even though is might also mean that you have to refactor som of your unit tests. So the learning lesson is to start with the agile simplicity principle and and when the code starts to overwhelm you, then you look into the SOLID guidelines for help. 
 
 [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) can also be applied to the code in order to improve the code design. A design pattern is a general reusable solution to a commonly occurring problem within a given context. 
 There will be given some concrete examples of design patterns  in the sections below: System Design and Object Design.
