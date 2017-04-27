@@ -33,7 +33,7 @@ At some point you might feel that this simplest possible code needs some attenti
 
 ![Cost curve](../img/comparingTechniques.jpg)
 
-#### Getting help from people and tools
+#### Getting help from developers and tools
 In code reviews you have developers outside the team spent time looking at YOUR code. This activity can help identify code that can do with some improvement.
 
 Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can also give you hints about your code. Features of static analysis tools are:
