@@ -14,7 +14,7 @@ For Tuesday we will revisit Javadoc (to produce documentation of methods, classe
 ### Readings:
 #### Tuesday May 2
 
--[Note on Architecture and Design](Design and Architecture/design-arch.md)
+- [Note on Architecture and Design](Design and Architecture/design-architecture.md)
 - Front Controller
 
 - Lethbridge and Laganiere chapter 9
