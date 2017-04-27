@@ -17,8 +17,8 @@ For Tuesday we will revisit Javadoc (to produce documentation of methods, classe
 - [Note on Architecture and Design](Architecture-Design/design-architecture.md)
 - [Front Controller](Architecture-Design/arch-FrontController -Core J2EE Patterns.pdf)
 
-- [Lethbridge and Laganiere chapter 9](Architecture-Design/LethbridgeLaganiereExtract.pdf)
-- [Lethbridge and Laganiere chapter 9 slides]()
+- [Lethbridge and Laganiere chapter 9](Architecture-Design/arch-LethbridgeLaganiereExtract.pdf)
+- [Lethbridge and Laganiere chapter 9 slides](Architecture-Design/arch-LethbridgeLaganiere_ch09.pdf)
 
 
 #### Wednesday May 3
