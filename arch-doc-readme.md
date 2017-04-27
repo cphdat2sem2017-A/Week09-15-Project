@@ -14,14 +14,15 @@ For Tuesday we will revisit Javadoc (to produce documentation of methods, classe
 ### Readings:
 #### Tuesday May 2
 
+-[Note on Architecture and Design](Design and Architecture/design-arch.md)
 - Front Controller
 
+- Lethbridge and Laganiere chapter 9
+- Lethbridge and Laganiere chapter 9 slides
 
 
 #### Wednesday May 3
-- Lethbridge and Laganiere chapter 9
 
-- Lethbridge and Laganiere chapter 9 slides
 
 - [Note on Javadoc](Documentation/arch-Javadoc.md)
 
