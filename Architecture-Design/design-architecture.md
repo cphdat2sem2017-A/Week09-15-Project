@@ -7,7 +7,7 @@ Agile software development is based on the [agile manifesto](http://agilemanifes
 So agile teams do not follow detailed enterprise design guidelines to make "a big design up front" in the beginning of a project.The simplicity principle means, that the team will do what is needed and asked for, but no more. 
 
 ### Why?
-Simplicity  will maximize the value created for the investment made to date. Developers will take small simple steps to their goal and mitigate failures as they happen.
+[Simplicity](http://www.extremeprogramming.org/values.html) will maximize the value created for the investment made to date. Developers will take small simple steps to their goal and mitigate failures as they happen.
 
 There is no reason to spend a lot of time on building a detailed design as you might not really know what you are doing early on in a project. Non-agile developers will often tell you to reduce risk by modeling everything in detail, but if you step back and think about it for a minute, this actually increases your risk. Does it really make sense to do a lot of detailed modeling when you don't really know what you're doing? Think about modeling a full database in the very first Scrum sprint. Probably not something that you really have enough knowledge about to do well.
 
@@ -29,7 +29,10 @@ After writing the first unit test, you create the simplest code that will make t
 At some point you might feel that this simplest possible code needs some attention. When we remove redundancy, eliminate unused functionality, and improve obsolete designs we are refactoring. Refactoring throughout the entire project life cycle saves time and increases quality. Refactor mercilessly to keep the design simple as you go and to avoid needless clutter and complexity. Keep your code clean and concise so it is easier to understand, modify, and extend. Make sure everything is expressed once and only once. In the end it takes less time to produce a system that is well groomed.
 
 #### Getting help from people and tools
-Code reviews and static test tools can reveal smelly code or otherwise room for improvement of the software.
+Code reviews is a great help where you have other people spent time looking at YOUR code. That activity can be used to identify smelly code, maybe find bugs, and ways to improve your code.
+Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can give you hints about the parts of the code where there is room for improvement. Such tools show metrics for a number of things such as the complexity of methods (the number of independent paths through an algorithm), number of lines per class, and dependencies between classes (can be used to detect the coupling in the program).
+
+Both reviews and static test tools are so-called static test techniques because they don't use running code, but inspect the code.
  
 #### Good design
 Good sóftware design has the following qualities:
