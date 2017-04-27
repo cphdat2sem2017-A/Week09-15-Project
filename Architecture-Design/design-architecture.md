@@ -28,8 +28,13 @@ After writing the first unit test, you create the simplest code that will make t
 
 At some point you might feel that this simplest possible code needs some attention. When we remove redundancy, eliminate unused functionality, and improve obsolete designs we are refactoring. Refactoring throughout the entire project life cycle saves time and increases quality. Refactor mercilessly to keep the design simple as you go and to avoid needless clutter and complexity. Keep your code clean and concise so it is easier to understand, modify, and extend. Make sure everything is expressed once and only once. In the end it takes less time to produce a system that is well groomed.
 
+#### Pair programming
+[Pair programming](http://www.extremeprogramming.org/rules/pair.html) increases software quality without impacting time to deliver. It is counter intuitive, but 2 people working at a single computer will add as much functionality as two working separately except that it will be much higher in quality. With increased quality comes big savings later in the project.
+
+See comparingtechniques.jpeg
+
 #### Getting help from people and tools
-Code reviews is a great help where you have other people spent time looking at YOUR code. That activity can be used to identify smelly code, maybe find bugs, and ways to improve your code.
+Code reviews is a great help where you have developers outside the team spent time looking at YOUR code. That activity can be used to identify codethat can do with some improvement.
 Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can give you hints about the parts of the code where there is room for improvement. Such tools show metrics for a number of things such as the complexity of methods (the number of independent paths through an algorithm), number of lines per class, and dependencies between classes (can be used to detect the coupling in the program).
 
 Both reviews and static test tools are so-called static test techniques because they don't use running code.
