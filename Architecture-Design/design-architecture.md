@@ -51,7 +51,7 @@ Good software design has the following qualities:
 - testable
 - robust 
 
-A Java program should follow the OO principles: 
+For a starter, a Java program should follow the OO principles: 
 - abstraction. This basically means writing classes that only contain relevant data and methods. For instance a Customer class with name and address, but without irrelevant information such as puls rate or shoe size.
 - encapsulation. This basically means restricting direct access to an object's attributes by using the private modifier. The internal details of a class must be hidden from outside. The class has methods that provide user interfaces by which the services provided by the class may be used. 
 - modularity. This is the process of decomposing a problem (program) into a set of modules so as to reduce the overall complexity of the problem
