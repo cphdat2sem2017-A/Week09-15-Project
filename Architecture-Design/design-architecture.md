@@ -45,7 +45,7 @@ Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can al
 Both code reviews and static test tools are called static test techniques because the code is not executed. Instead we/tools are looking at the code.
  
 #### Good design
-Good sóftware design has the following qualities:
+Good software design has the following qualities:
 - maintainable
 - reusable
 - testable
@@ -56,7 +56,7 @@ A Java program should follow the OO principles: abstraction, encapsultation, and
 [SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) are good guidelines to improve maintainablity and make the software easier to extend over time.
 
 [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) can also be applied to the code in order to improve the code design. A design pattern is a general reusable solution to a commonly occurring problem within a given context. 
-There will be shown some concrete examples of design patterns  in the section sections below: System Design and Object Design.
+There will be given some concrete examples of design patterns  in the sections below: System Design and Object Design.
 
 ## System Design 
 ### Layers
