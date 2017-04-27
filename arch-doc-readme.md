@@ -26,6 +26,6 @@ For Tuesday we will revisit Javadoc (to produce documentation of methods, classe
 
 - [Note on Javadoc](Documentation/arch-Javadoc.md)
 
-- Note on Javadoc in Netbeans
+- [Note on Javadoc in Netbeans](Documentation/arch-JavadocNetbeans.md)
 
-- Rapportskrivning.ppt
+
