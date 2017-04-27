@@ -32,7 +32,7 @@ At some point you might feel that this simplest possible code needs some attenti
 Code reviews is a great help where you have other people spent time looking at YOUR code. That activity can be used to identify smelly code, maybe find bugs, and ways to improve your code.
 Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can give you hints about the parts of the code where there is room for improvement. Such tools show metrics for a number of things such as the complexity of methods (the number of independent paths through an algorithm), number of lines per class, and dependencies between classes (can be used to detect the coupling in the program).
 
-Both reviews and static test tools are so-called static test techniques because they don't use running code, but inspect the code.
+Both reviews and static test tools are so-called static test techniques because they don't use running code.
  
 #### Good design
 Good sóftware design has the following qualities:
