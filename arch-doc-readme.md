@@ -3,8 +3,6 @@
 On Tuesday and Wednesday May 2. and 3. we will look at 
 
 * architecture and its documentation (design documentation that goes into your product report). 
-* project documentation (how to document your Scrum process and team work in the process report)
-* the qualities of a good report.
 * design principles and patterns (object oriented design of your code base)
 
 For Monday there is an extract from a book about object-oriented software engineering (Lethbridge and Laganiere). That sounds fancy, but basically it is about constructing the the software with a design where we can achieve qualities such as maintainability, reusability, testability and robustness. We try to pick out the parts which are most relevant for your project and exam. Monday will be mostly theory with some code demo examples.
