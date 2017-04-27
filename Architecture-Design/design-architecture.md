@@ -34,10 +34,15 @@ At some point you might feel that this simplest possible code needs some attenti
 ![Cost curve](../img/comparingTechniques.jpg)
 
 #### Getting help from people and tools
-Code reviews is a great help where you have developers outside the team spent time looking at YOUR code. That activity can be used to identify codethat can do with some improvement.
-Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can give you hints about the parts of the code where there is room for improvement. Such tools show metrics for a number of things such as the complexity of methods (the number of independent paths through an algorithm), number of lines per class, and dependencies between classes (can be used to detect the coupling in the program).
+In code reviews you have developers outside the team spent time looking at YOUR code. This activity can help identify code that can do with some improvement.
 
-Both reviews and static test tools are so-called static test techniques because they don't use running code.
+Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can also give you hints about your code. Features of static analysis tools are:
+
+- To calculate metrics such as cyclomatic complexity or nesting levels (which can help to identify where refactoring is needed and/or where more testing may be needed due to increased risk)
+- To enforce coding standards
+- To analyze structures and dependencies
+
+Both code reviews and static test tools are called static test techniques because the code is not executed. Instead we/tools are looking at the code.
  
 #### Good design
 Good sóftware design has the following qualities:
