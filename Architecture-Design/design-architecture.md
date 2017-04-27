@@ -34,7 +34,7 @@ At some point you might feel that this simplest possible code needs some attenti
 ![Cost curve](../img/comparingTechniques.jpg)
 
 #### Getting help from developers and tools
-In code reviews you have developers outside the team spent time looking at YOUR code. This activity can help identify code that can do with some improvement.
+In code reviews you have developers outside the team spend time walking through YOUR code adn give you feedback on its quality. This activity can help identify code that can do with some improvement.
 
 Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can also give you hints about your code. Features of static analysis tools are:
 
@@ -42,7 +42,7 @@ Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can al
 - To enforce coding standards
 - To analyze structures and dependencies
 
-Both code reviews and static test tools are called static test techniques because the code is not executed. Instead we/tools are looking at the code.
+Both code reviews and static test tools are called static test techniques because the code is not executed. The code is being investigated without having the application up running.
  
 #### Good design
 Good software design has the following qualities:
