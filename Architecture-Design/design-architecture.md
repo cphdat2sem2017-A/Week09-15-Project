@@ -31,7 +31,7 @@ At some point you might feel that this simplest possible code needs some attenti
 #### Pair programming
 [Pair programming](http://www.extremeprogramming.org/rules/pair.html) increases software quality without impacting time to deliver. It is counter intuitive, but 2 people working at a single computer will add as much functionality as two working separately except that it will be much higher in quality. With increased quality comes big savings later in the project.
 
-See comparingtechniques.jpeg
+Architecture-Design/comparingTechniques.jpg
 
 #### Getting help from people and tools
 Code reviews is a great help where you have developers outside the team spent time looking at YOUR code. That activity can be used to identify codethat can do with some improvement.
