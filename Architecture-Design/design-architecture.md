@@ -7,14 +7,14 @@ Agile software development is based on the [agile manifesto](http://agilemanifes
 So agile teams do not follow detailed enterprise design guidelines to make "a big design up front" in the beginning of a project.The simplicity principle means, that the team will do what is needed and asked for, but no more. 
 
 ### Why?
-[Simplicity](http://www.extremeprogramming.org/values.html) will maximize the value created for the investment made to date. Developers will take small simple steps to their goal and mitigate failures as they happen.
+[Simplicity](http://www.extremeprogramming.org/values.html) will maximize the value created for the investment made to date. This means max. business value with the smallest programming effort. Developers will take small simple steps to their goal and mitigate failures as they happen and developers grow wiser on the future IT system.
 
-There is no reason to spend a lot of time on building a detailed design as you might not really know what you are doing early on in a project. Non-agile developers will often tell you to reduce risk by modeling everything in detail, but if you step back and think about it for a minute, this actually increases your risk. Does it really make sense to do a lot of detailed modeling when you don't really know what you're doing? Think about modeling a full database in the very first Scrum sprint. Probably not something that you really have enough knowledge about to do well.
+There is no reason to spend a lot of time on building a detailed design as you might not really know what you are doing early on in a project. Non-agile developers (in waterfall projects) will tell you to reduce risk by modeling everything in detail, but if you step back and think about it for a minute, this actually increases your risk. Does it really make sense to do a lot of detailed modeling when you don't really know what you're doing? Think about modeling a full database in the very first Scrum sprint. Probably not something that you really are bapable of doing at that point in time.
 
 Most often you do not know whether a design solution is going to work, until you have proved it with code. Therefore the best design evolves over time, instead of being defined up front.
 
 ### How?
-How does good design then come up? And when? 
+How does good design then come up?
 
 #### Sprint Zero 
 In Scrum there is often a Sprint Zero which is used to create the basic skeleton and infrastructure for the project (e.g setting up github and servers) so that future sprints can add incremental business value in an efficient way. You may need to do some research experiments (often called spikes). Minimal design up front is done in Sprint Zero so that emergent design is possible in future sprints. This includes putting together a flexible enough framework so that refactoring is easy.
