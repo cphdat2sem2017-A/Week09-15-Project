@@ -67,13 +67,13 @@ There will be given some concrete examples of design patterns  in the sections b
 There is often some confusion about the differences between the concepts architecture and design. There is not a clear definition of the term software architecture, but there is a general agreement on software achitecture as being more abstract and high-level than software design. So architecture is the overall design of the system. Developers divide the system into manageable pieces to deal with complexity. Layering is one of the most common techniques that is used to break apart an application into managable pieces.
 
 ### Layers
-Layers is a commonly used software architectural style. Most often a three layered architecture is used, where each layer can only us the adjacent lower level. We typically have:
+Layers is a commonly used software architectural style. Most often a three layered architecture is used, where each layer can only us the adjacent lower level. 
 
 Breaking down a system into layers has some benefits:
 
 - You can understand a singel layer as a coherent whole without knowing much about the other layers.
 - You can replace layers with alternative implementations of the same basic services
-- You minimimze the dependencies between layers. If we change the database server, the Ui is not affected by the change
+- You minimimze the dependencies between layers. If we change the database server, the UI is not affected by the change
 
 We typically have:
 - UI layer which represents the presentation logic, i.e. handling the interaction between the user and the software. The primary responsibilties of this layer are to display information to the user and to interpret commands from the user into actions upon the domain model layer.
