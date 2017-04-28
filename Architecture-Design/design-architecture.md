@@ -75,12 +75,13 @@ Breaking down a system into layers has some benefits:
 - You can replace layers with alternative implementations of the same basic services
 - You minimimze the dependencies between layers. If we change the database server, the UI is not affected by the change
 
+
 We typically have:
 - UI layer which represents the presentation logic, i.e. handling the interaction between the user and the software. The primary responsibilties of this layer are to display information to the user and to interpret commands from the user into actions upon the domain model layer.
-- Data source layer which contains the logic to communicate with other systems that carry out tasks on behalf of the application. These can be databases, mail servers, other applications etc.
+- Data source layer which contains the logic to communicate with other systems.These can be databases, mail servers, other applications etc.
 - Domain model layer which contains the business logic. This is the work that the application needs to do for the domain that you are working with. This involves for example calculations based on inputs and stored data, validation of the data from the presentation layer, and finding out which data source logic to dispatch, depending on commands received from the presentation.
 
-<picture 3 layer architecture>
+![3 layer architecture]
 
 - why?
 - how?
