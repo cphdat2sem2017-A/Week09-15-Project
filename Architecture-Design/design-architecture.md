@@ -114,9 +114,21 @@ By using the MVC pattern, we separate the presentation logic in the presentation
 
 ## Object Design
 Architecture is more abstract than design and has focus on decomposing a system into smaller modules (subsystems or layers) whereas object design is more about how a specify module/subsystem/layer is implemented.
-- why and how ?
-- MVC
-- Front Controller
-- Command pattern
 
-## UML
+Object design includes
+- reuse, where off-the-shelf components and design patterns can be identified to makew use of existing solutions
+- service specification, during which we precisely describe each class interface
+- object model restructuring, during which we restructure the object model design to improve its understandibility snd extensibility
+
+We will look into a number of patterns that each is a solution to certain type of problem.
+
+## Front Controller
+A pattern used in presentation layer to handle all requests for a Website in a centralized manner.
+
+## Command 
+A pattern used in the presentation layer to handle the incoming actions from the jsp pages.
+
+## Service Controller
+A pattern used in business layer to coordinate and control the application flow.
+
+
