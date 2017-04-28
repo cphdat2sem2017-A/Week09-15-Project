@@ -77,14 +77,15 @@ Breaking down a system into layers has some benefits:
 
 
 We typically have:
-- UI layer which represents the presentation logic, i.e. handling the interaction between the user and the software. The primary responsibilties of this layer are to display information to the user and to interpret commands from the user into actions upon the domain model layer.
-- Data source layer which contains the logic to communicate with other systems.These can be databases, mail servers, other applications etc.
-- Domain model layer which contains the business logic. This is the work that the application needs to do for the domain that you are working with. This involves for example calculations based on inputs and stored data, validation of the data from the presentation layer, and finding out which data source logic to dispatch, depending on commands received from the presentation.
+- Presentation layer which represents the presentation logic, i.e. handling the interaction between the user and the software. The primary responsibilties of this layer are to display information to the user and to interpret commands from the user into actions upon the domain model layer.
+- Data access layer which contains the logic to communicate with other systems.These can be databases, mail servers, other applications etc.
+- Business logic layer which contains the domain model and the business logic. This is the work that the application needs to do for the domain that you are working with. This involves for example calculations based on inputs and stored data, validation of the data from the presentation layer, and finding out which data source logic to dispatch, depending on commands received from the presentation.
 
 ![3 layer architecture](../img/3layers.jpg)
 
-- why?
-- how?
+### Facade
+Encapsulation of a layer is best done by introducing a Facade in the layer. Facade is a design pattern that is used to provide a single interface to the layer. All clients can only communicate with the layer through its Facade. A Facade pattern is implemented as a class (or to increase the flexibility, an interface will be even better). The Facade class will typically end up with a a lot of methods and will in itself have low cohesion (which is usually a bad thing). But since it's work is to hide the internal structure and implementation details of the layer, it is acceptable with low cohesion in the Facade. It will on the other hand introduce low coulpling into the system which is a good thing.
+
 
 ## Object Design
 Architecture is more abstract than design and has focus on decomposing a system into smaller modules (subsystems or layers) whereas object design is more about how a specify module/subsystem/layer is implemented.
