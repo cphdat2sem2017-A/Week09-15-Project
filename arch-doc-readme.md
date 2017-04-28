@@ -12,7 +12,7 @@ For Tuesday we will revisit Javadoc (to produce documentation of methods, classe
 ### Readings:
 #### Tuesday May 2
 
-- [Note on Architecture and Design](Architecture-Design/design-architecture.md)
+- [Note on Architecture and Design](Architecture-Design/design-architecture.md) You don't have to follow the links in the text, it is bonus info:-)
 - [Front Controller](Architecture-Design/arch-Frontcontroller-CoreJ2EEPatterns.pdf)
 
 - [Lethbridge and Laganiere chapter 9](Architecture-Design/arch-LethbridgeLaganiereExtract.pdf)
