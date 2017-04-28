@@ -104,6 +104,7 @@ Layers with a Facade
 ### MVC
 A Model-View-Controller architecture splits the user interaction into three distinct roles. We separate the presentation logic in the presentation layer from the domain model in the business logic layer. A controller in the presentation layer (a Servlet) will act as a middle-man between the two layers. It is the controller that makes sure that information is retrieved from the business logic layer (which again will delegate the task of retrieving data from the database to the data access layer) and the controller will hand over the data to the jsp pages for presentation on the screen. 
 
+
 ![layers1](../img/MVC.PNG)
 
 Doing this is important for several reasons.
@@ -128,9 +129,9 @@ We will look into a number of patterns that each is a solution to certain type o
 A pattern used in presentation layer to handle all requests for a Website in a centralized manner.
 
 ## Command 
-A pattern used in the presentation layer to handle the incoming actions from the jsp pages.
+A pattern used in the presentation layer to handle the incoming actions from the jsp pages together with the Front Controller servlet in a very flexible and generic way. Basically the imlementation of this pattern will remove the if-if else statements from the servlet. A command object will act as a controller object that initiates an action, for instance login, create customer, or delete order.
 
 ## Service Controller
-A pattern used in business layer to coordinate and control the application flow.
+A pattern used in the business layer to coordinate and control the application flow for an action such as login, create customer, or delete order.
 
 
