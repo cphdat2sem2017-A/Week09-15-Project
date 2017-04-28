@@ -90,12 +90,27 @@ A Facade pattern is implemented as a class (or to increase the flexibility, an i
 
 Layers without a Facade
 
+
 ![layers1](../img/layers.PNG)
+
+
+
 
 Layers with a Facade
 
+
 ![layers1](../img/layers2.PNG)
 
+### MVC
+A Model-View-Controller architecture splits the user interaction into three distinct roles.
+
+By using the MVC pattern, we separate the presentation logic in the presentation layer from the domain model in the business logic layer. That is important for several reasons.
+
+- Working on a view concerns dealing with the mechanisms of UI and to lay out a good user interface. Working on the model deals with other tasks such as business policies and transactions. You will use different libraries and possible different programming models.
+ 
+- Separating the view allows you to develop multiple interfaces (web, app, swing etc.) based on the same model code and thus making reuse of business logic more convenient.
+
+- Nonvisual objects are easier to test than visual ones. You can unit test the domain objects more easily when domain logic resides in its own non-UI objects.
 
 ## Object Design
 Architecture is more abstract than design and has focus on decomposing a system into smaller modules (subsystems or layers) whereas object design is more about how a specify module/subsystem/layer is implemented.
