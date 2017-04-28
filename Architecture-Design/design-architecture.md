@@ -81,7 +81,7 @@ We typically have:
 - Data source layer which contains the logic to communicate with other systems.These can be databases, mail servers, other applications etc.
 - Domain model layer which contains the business logic. This is the work that the application needs to do for the domain that you are working with. This involves for example calculations based on inputs and stored data, validation of the data from the presentation layer, and finding out which data source logic to dispatch, depending on commands received from the presentation.
 
-![3 layer architecture]
+![3 layer architecture](../img/3layers.jpeg)
 
 - why?
 - how?
