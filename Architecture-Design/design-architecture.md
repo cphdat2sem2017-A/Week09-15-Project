@@ -88,6 +88,14 @@ Encapsulation of a layer is best done by introducing a Facade in the layer. Faca
 
 A Facade pattern is implemented as a class (or to increase the flexibility, an interface will be even better). The Facade class will typically end up with a a lot of methods and will in itself have low cohesion (which is usually a bad thing). But since it's job is to hide the internal structure and implementation details of the layer to its clients, it is acceptable with low cohesion in the Facade. It will on the other hand make the coupling of the system low, which is a good thing.
 
+Layers without a Facade
+
+![layers1](../img/layers.PNG)
+
+Layers with a Facade
+
+![layers1](../img/layers2.PNG)
+
 
 ## Object Design
 Architecture is more abstract than design and has focus on decomposing a system into smaller modules (subsystems or layers) whereas object design is more about how a specify module/subsystem/layer is implemented.
