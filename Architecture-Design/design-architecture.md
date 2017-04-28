@@ -84,7 +84,7 @@ We typically have:
 ![3 layer architecture](../img/3layers.jpg)
 
 ### Facade
-Encapsulation of a layer is best done by introducing a Facade in the layer. Facade is a design pattern that is used to provide a single interface to the layer. All clients can only communicate with the layer through its Facade. A Facade pattern is implemented as a class (or to increase the flexibility, an interface will be even better). The Facade class will typically end up with a a lot of methods and will in itself have low cohesion (which is usually a bad thing). But since it's work is to hide the internal structure and implementation details of the layer, it is acceptable with low cohesion in the Facade. It will on the other hand introduce low coulpling into the system which is a good thing.
+Encapsulation of a layer is best done by introducing a Facade in the layer. Facade is a design pattern that is used to provide a single interface to the layer. All clients can only communicate with the layer through its Facade. A Facade pattern is implemented as a class (or to increase the flexibility, an interface will be even better). The Facade class will typically end up with a a lot of methods and will in itself have low cohesion (which is usually a bad thing). But since it's job is to hide the internal structure and implementation details of the layer, it is acceptable with low cohesion in the Facade. It will on the other hand help making the coupling of the system low, which is a good thing.
 
 
 ## Object Design
