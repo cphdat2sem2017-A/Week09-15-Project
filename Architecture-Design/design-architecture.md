@@ -34,7 +34,7 @@ At some point you might feel that this simplest possible code needs some attenti
 ![Cost curve](../img/comparingTechniques.jpg)
 
 #### Getting help from developers and tools
-In code reviews you have developers outside the team spend time walking through YOUR code adn give you feedback on its quality. This activity can help identify code that can do with some improvement.
+In code reviews you have developers outside the team spend time walking through YOUR code and give you feedback on its quality. This activity can help identify code that can do with some improvement.
 
 Static test tools (like JaCoCoverage and Source Code Metrics in Netbeans) can also give you hints about your code. Features of static analysis tools are:
 
@@ -102,9 +102,11 @@ Layers with a Facade
 ![layers1](../img/layers2.PNG)
 
 ### MVC
-A Model-View-Controller architecture splits the user interaction into three distinct roles.
+A Model-View-Controller architecture splits the user interaction into three distinct roles. We separate the presentation logic in the presentation layer from the domain model in the business logic layer. 
 
-By using the MVC pattern, we separate the presentation logic in the presentation layer from the domain model in the business logic layer. That is important for several reasons.
+![layers1](../img/MVC.PNG)
+
+Doing this is important for several reasons.
 
 - Working on a view concerns dealing with the mechanisms of UI and to lay out a good user interface. Working on the model deals with other tasks such as business policies and transactions. You will use different libraries and possible different programming models.
  
