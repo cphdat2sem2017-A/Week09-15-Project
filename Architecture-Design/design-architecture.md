@@ -102,7 +102,7 @@ Layers with a Facade
 ![layers1](../img/layers2.PNG)
 
 ### MVC
-A Model-View-Controller architecture splits the user interaction into three distinct roles. We separate the presentation logic in the presentation layer from the domain model and its business logic. A controller in the presentation layer (in your case a Servlet) will act as a middle-man between the two layers. 
+A Model-View-Controller architecture splits the user interaction into three distinct roles. We separate the presentation logic in the presentation layer from the domain model in the business logic layer. A controller in the presentation layer (a Servlet) will act as a middle-man between the two layers. It is the controller that makes sure that information is retrieved from the business logic layer (which again will delegate the task of retrieving data from the database to the data access layer) and the controller will hand over the data to the jsp pages for presentation on the screen. 
 
 ![layers1](../img/MVC.PNG)
 
