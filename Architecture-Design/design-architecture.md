@@ -125,13 +125,13 @@ Object design includes
 
 We will look into a number of patterns that each is a solution to certain type of problem.
 
-## Front Controller
+### Front Controller
 A pattern used in presentation layer to handle all requests for a Website in a centralized manner.
 
-## Command 
+### Command 
 A pattern used in the presentation layer to handle the incoming actions from the jsp pages together with the Front Controller servlet in a very flexible and generic way. Basically the imlementation of this pattern will remove the if-if else statements from the servlet. A command object will act as a controller object that initiates an action, for instance login, create customer, or delete order.
 
-## Service Controller
+### Service Controller
 A pattern used in the business layer to coordinate and control the application flow for an action such as login, create customer, or delete order.
 
 
