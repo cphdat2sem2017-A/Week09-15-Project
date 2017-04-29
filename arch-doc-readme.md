@@ -13,10 +13,10 @@ For Tuesday we will revisit Javadoc (to produce documentation of methods, classe
 #### Tuesday May 2
 
 - [Note on Architecture and Design](Architecture-Design/design-architecture.md) You don't have to follow all the links in the text, it is bonus info:-)
-- [Front Controller](Architecture-Design/arch-Frontcontroller-CoreJ2EEPatterns.pdf)
+- [Front Controller](Architecture-Design/arch-Frontcontroller-CoreJ2EEPatterns.pdf) You don't have to read this before class.
 
 - [Lethbridge and Laganiere chapter 9](Architecture-Design/arch-LethbridgeLaganiereExtract.pdf)
-- [Lethbridge and Laganiere chapter 9 slides](Architecture-Design/arch-LethbridgeLaganiere_ch09.ppt)
+- [Lethbridge and Laganiere chapter 9 slides](Architecture-Design/arch-LethbridgeLaganiere_ch09.ppt) You don't have to read this before class.
 
 
 #### Wednesday May 3
