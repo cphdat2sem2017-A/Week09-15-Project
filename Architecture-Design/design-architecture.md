@@ -86,7 +86,7 @@ We typically have:
 ### Facade
 Encapsulation of a layer is best done by introducing a Facade in the layer. Facade is a design pattern that is used to provide a unified interface to the layer which will makes the layer easier to use for its clients. All clients can only communicate with the layer through its Facade. 
 
-A Facade pattern is implemented as a class (or to increase the flexibility, an interface will be even better). The Facade class will typically end up with a a lot of methods and will in itself have low cohesion (which is usually a bad thing). But since it's job is to hide the internal structure and implementation details of the layer to its clients, it is acceptable with low cohesion in the Facade. It will on the other hand make the coupling of the system low, which is a good thing.
+A Facade pattern is implemented as a class (or to increase the flexibility, an interface will be even better so you can [stub](https://martinfowler.com/eaaCatalog/serviceStub.html) it). The Facade class will typically end up with a a lot of methods and will in itself have low cohesion (which is usually a bad thing). But since it's job is to hide the internal structure and implementation details of the layer to its clients, it is acceptable with low cohesion in the Facade. It will on the other hand make the coupling of the system low, which is a good thing.
 
 Layers without a Facade
 
