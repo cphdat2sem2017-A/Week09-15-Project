@@ -36,13 +36,24 @@ Github pages has three ways of showing html pages. One of them is to tell github
 6. The url to your Github pages is now listed in the green area. Copy the URL, and go back to the front page of your project. You can put in the link to the pages file at the top. <br>
 ![PagesURL](../img/ProjectURL.jpg)
 
-#### Javadocs on github - change where Javadoc stores the generated files
+#### Change where Javadoc stores the generated files
 Rather than copying the files from dist/javadoc to the docs folder you can change where javadoc puts its files in the first place.
 
-- A tricky thing - if you find a better way, please say so in an issue! <br> In the nbproject folder there is a file named "project.properties" - you need to locate the one named dist.javadoc.dir, and change it from <br>dist.javadoc.dir=${dist.dir}/javadoc<br>to <br>dist.javadoc.dir=docs/javadoc<br>
-I often leave the old value line with a # sign in front to comment it out and help me locate it again if need be
+You need to change the maven pom.xml file of your project. There is a section named `<build>`, and within that there is a section named `<plugins>`(notice the plural-s). You need to insert this javadoc plugin to change javadoc to put the javadoc in the docs folder.
 
-Now when you run javadoc, it stores the javadoc into the docs folder instead of the .gitignored dist/javadoc folder.
+
+```xml
+<plugin>
+	<artifactId>maven-javadoc-plugin</artifactId>
+	<version>2.9</version>
+	<configuration>
+		<destDir>./docs</destDir>
+		<reportOutputDirectory>${basedir}</reportOutputDirectory>
+	</configuration>
+</plugin>
+```
+
+Now when you run javadoc, it stores the javadoc into the docs folder instead of the .gitignored `target/site/apidocs` folder.
 
 ## Advanced (not mandatory): How to use pegdown instead of normal javadoc
 In 2004 Javadoc introduced the possibility for third party developers to make their own tools to process the information in the javadoc comments. 
