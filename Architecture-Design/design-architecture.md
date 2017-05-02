@@ -71,7 +71,7 @@ Layers is a commonly used software architectural style. Most often a three layer
 
 Breaking down a system into layers has some benefits:
 
-- You can understand a singel layer as a coherent whole without knowing much about the other layers.
+- You can understand a single layer as a coherent whole without knowing much about the other layers.
 - You can replace layers with alternative implementations of the same basic services
 - You minimimze the dependencies between layers. If we change the database server, the UI is not affected by the change
 
