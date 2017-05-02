@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="da"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Part.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;DataMapperTestable&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">model</a> &gt; <span class="el_source">Part.java</span></div><h1>Part.java</h1><pre class="source lang-java linenums">package model;
+
+/**
+ * Domain model entity class for Part objects 
+ *
+ * @author Tine
+ */
+public class Part {
+
+    private int pno;    
+    private String pname;
+    private int QOH;
+    private double price;
+    private int olevel;
+
+<span class="nc" id="L16">    public Part(int p, String pn, int q, double pr, int ol) {</span>
+<span class="nc" id="L17">        pno = p;</span>
+<span class="nc" id="L18">        pname = pn;</span>
+<span class="nc" id="L19">        QOH = q;</span>
+<span class="nc" id="L20">        price = pr;</span>
+<span class="nc" id="L21">        olevel = ol;</span>
+<span class="nc" id="L22">    }</span>
+
+    public void setPno(int pno) {
+<span class="nc" id="L25">        this.pno = pno;</span>
+<span class="nc" id="L26">    }</span>
+
+    public int getPno() {
+<span class="nc" id="L29">        return pno;</span>
+    }
+
+    public void setPname(String pname) {
+<span class="nc" id="L33">        this.pname = pname;</span>
+<span class="nc" id="L34">    }</span>
+
+    public String getPname() {
+<span class="nc" id="L37">        return pname;</span>
+    }
+
+    public void setQOH(int qOH) {
+<span class="nc" id="L41">        this.QOH = qOH;</span>
+<span class="nc" id="L42">    }</span>
+
+    public int getQOH() {
+<span class="nc" id="L45">        return QOH;</span>
+    }
+
+    public void setPrice(double price) {
+<span class="nc" id="L49">        this.price = price;</span>
+<span class="nc" id="L50">    }</span>
+
+    public double getPrice() {
+<span class="nc" id="L53">        return price;</span>
+    }
+
+    public void setOlevel(int olevel) {
+<span class="nc" id="L57">        this.olevel = olevel;</span>
+<span class="nc" id="L58">    }</span>
+
+    public int getOlevel() {
+<span class="nc" id="L61">        return olevel;</span>
+    }
+    
+    @Override
+    public String toString() {
+<span class="nc" id="L66">        return &quot;pno=&quot; + pno + &quot;, pname=&quot; + pname + &quot;, QOH=&quot; + QOH + &quot;, price=&quot; + price + &quot;, olevel=&quot; + olevel;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

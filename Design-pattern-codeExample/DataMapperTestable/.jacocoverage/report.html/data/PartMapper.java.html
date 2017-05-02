@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="da"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>PartMapper.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;DataMapperTestable&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">data</a> &gt; <span class="el_source">PartMapper.java</span></div><h1>PartMapper.java</h1><pre class="source lang-java linenums">package data;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import model.Part;
+import java.sql.Connection;
+
+/**
+ * Maps between objects and tables
+ *
+ * @author tm
+ */
+
+//make package visible when DBFacade is created
+public class PartMapper {
+
+<span class="nc" id="L18">    private Connection con = null;</span>
+    
+<span class="nc" id="L20">    public PartMapper(Connection con) {</span>
+<span class="nc" id="L21">        this.con = con;</span>
+<span class="nc" id="L22">    }</span>
+
+    //NEW due to front controller
+<span class="nc" id="L25">    public PartMapper() {</span>
+<span class="nc" id="L26">        this.con = DBConnection.getConnection();</span>
+<span class="nc" id="L27">    }</span>
+    
+    public Part getPart(int pno) {
+<span class="nc" id="L30">        Part p = null;</span>
+<span class="nc" id="L31">        String SQLString</span>
+                = &quot;select * &quot;
+                + &quot;from parts &quot;
+                + &quot;where pno = ?&quot;;
+
+<span class="nc" id="L36">        try (PreparedStatement statement = con.prepareStatement(SQLString)) {</span>
+<span class="nc" id="L37">            statement.setInt(1, pno);</span>
+
+<span class="nc" id="L39">            ResultSet rs = statement.executeQuery();</span>
+<span class="nc bnc" id="L40" title="All 2 branches missed.">            if (rs.next()) {</span>
+<span class="nc" id="L41">                p = new Part(pno,</span>
+<span class="nc" id="L42">                        rs.getString(2),</span>
+<span class="nc" id="L43">                        rs.getInt(3),</span>
+<span class="nc" id="L44">                        rs.getDouble(4),</span>
+<span class="nc" id="L45">                        rs.getInt(5));</span>
+            }
+<span class="nc bnc" id="L47" title="All 8 branches missed.">        } catch (SQLException e) {</span>
+<span class="nc" id="L48">            System.out.println(&quot;Fail in PartsMapper - getPart &quot; + e.getMessage());</span>
+<span class="nc" id="L49">        }</span>
+
+<span class="nc" id="L51">        return p;</span>
+    }
+
+    public boolean updatePart(int pno, int QOH) {
+<span class="nc" id="L55">        int rowsAffected = 0;</span>
+<span class="nc" id="L56">        String SQLString</span>
+                = &quot;update parts &quot;
+                + &quot;set QOH = ? &quot;
+                + &quot;where pno = ?&quot;;
+
+<span class="nc" id="L61">        try (PreparedStatement statement = con.prepareStatement(SQLString)) {</span>
+<span class="nc" id="L62">            statement.setInt(1, QOH);</span>
+<span class="nc" id="L63">            statement.setInt(2, pno);</span>
+<span class="nc" id="L64">            rowsAffected = statement.executeUpdate();</span>
+<span class="nc bnc" id="L65" title="All 8 branches missed.">        } catch (SQLException e) {</span>
+<span class="nc" id="L66">            System.out.println(&quot;Fail in PartsMapper - updatePart &quot; + e.getMessage());</span>
+<span class="nc" id="L67">        }</span>
+
+<span class="nc bnc" id="L69" title="All 2 branches missed.">        return rowsAffected == 1;</span>
+    } 
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
