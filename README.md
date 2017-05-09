@@ -1,6 +1,17 @@
 # Week09-15-Projekt	
 Dette repo vil indeholde materialer der kommer i løbet af projekt perioden.
 
+## Teknisk review Torsday 11. Maj.
+
+Til det tekniske review skal vi primært kigge på:
+
+- Arkitektur
+- Dokumentation
+- Fejlhåndtering
+
+
+Der er en [tidsplan for reviews](Timetable for technical review 11. May.pdf). Vi er primært i lokale 2.03, men gruppe A5 starter i 2.01 og A3 gruppe skal være i 2.62
+
 ## Review planer
 Der er teknisk review torsdag 6. april med Tobias (Tobias/Alpha) samt sprint review/planning møde fredag 7. april med PO (Palle).
 Mødetider for reviews fremgår af separate time table pdf dokumenter.   
